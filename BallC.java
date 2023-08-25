@@ -4,4 +4,8 @@ public class BallC extends BallA {
         super(treadMark);
     }
 
+    @Override
+    public void roll() {
+        System.out.println(treadMark+" rolls very smoothly.");
+    }
 }
